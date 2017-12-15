@@ -1,0 +1,6 @@
+@(f: models.Client)
+
+@main("Welcome to Play") {
+  <h1>Welcome to Play!)</h1>
+  @(f.fname) 
+}

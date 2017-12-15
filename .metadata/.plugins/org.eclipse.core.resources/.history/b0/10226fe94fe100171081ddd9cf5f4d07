@@ -1,0 +1,10 @@
+package models
+
+class Client {
+    var fname: String = ""
+    var lname: String = ""
+  
+    def concat: String = {
+    fname + lname
+  }
+}

@@ -1,0 +1,8 @@
+package models
+
+class Client (fname: String, lname: String)
+{  
+    def concat: String = {
+    fname + lname
+  }
+}

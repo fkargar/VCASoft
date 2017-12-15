@@ -1,0 +1,7 @@
+package models
+
+class Dashboard {
+  val clients: Array[Client]
+  val services: Array[Service]
+  val parts: Array[Part]
+}

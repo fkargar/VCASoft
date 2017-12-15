@@ -1,0 +1,7 @@
+package models
+
+case class Dashboard(
+  clients: Array[Client],
+  services: Array[Service],
+  parts: Array[Part]
+  )

@@ -1,0 +1,5 @@
+package models
+
+class Client(fname: String, lname: String)
+{
+}

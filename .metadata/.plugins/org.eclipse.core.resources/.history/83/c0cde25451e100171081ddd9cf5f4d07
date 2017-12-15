@@ -1,0 +1,12 @@
+package models
+class Client
+{
+  var fname = "F"
+  var lname = "Thin"
+  
+
+  def this(f: String, l: String) {
+    this.fname = f
+    this.lname = l
+  }
+}
