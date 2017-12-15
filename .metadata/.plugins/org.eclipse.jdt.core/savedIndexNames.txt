@@ -109,7 +109,6 @@ INDEX VERSION 1.130+C:\Applications\VCASoft\.metadata\.plugins\org.eclipse.jdt.c
 3208988261.index
 3205869654.index
 934702752.index
-344742419.index
 2131904471.index
 1640950391.index
 597910032.index
