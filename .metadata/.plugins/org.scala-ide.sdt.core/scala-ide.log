@@ -334,3 +334,306 @@ scala.reflect.internal.FatalError: C:\Applications\VCASoft\iautoshop\target\scal
 2017-12-15 15:52:19,896  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 69
 2017-12-15 15:52:20,396  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 69
 2017-12-15 15:52:20,396  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 69
+2017-12-16 08:36:04,557  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for iautoshop, setting default to 2.12.
+2017-12-16 08:36:04,601  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for iautoshop, setting default to 2.12.
+2017-12-16 08:43:50,198  WARN [ModalContext] - ScalaProject - Project idataframework has platform default sourceLevel.
+2017-12-16 08:43:50,198  WARN [ModalContext] - ScalaProject - Project idataframework runs on platform default installation.
+2017-12-16 08:43:50,251 ERROR [Worker-1] - System.err - log4j:WARN No appenders could be found for logger (org.eclipse.jgit.util.FS).
+2017-12-16 08:43:50,251 ERROR [Worker-1] - System.err - log4j:WARN Please initialize the log4j system properly.
+2017-12-16 08:44:16,426  WARN [main] - ScalaProject - Project idataframework has platform default sourceLevel.
+2017-12-16 08:44:16,426  WARN [main] - ScalaProject - Project idataframework runs on platform default installation.
+2017-12-16 09:05:55,794  WARN [ModalContext] - ScalaProject - Project idataframework has platform default sourceLevel.
+2017-12-16 09:05:55,794  WARN [ModalContext] - ScalaProject - Project idataframework runs on platform default installation.
+2017-12-16 09:05:55,809  WARN [ModalContext] - ScalaProject - Project idataframework has platform default sourceLevel.
+2017-12-16 09:05:55,809  WARN [ModalContext] - ScalaProject - Project idataframework runs on platform default installation.
+2017-12-16 09:05:55,809  WARN [ModalContext] - ScalaProject - Project idataframework has platform default sourceLevel.
+2017-12-16 09:05:55,809  WARN [ModalContext] - ScalaProject - Project idataframework runs on platform default installation.
+2017-12-16 09:05:56,983  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project idataframework has platform default sourceLevel.
+2017-12-16 09:05:56,983  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project idataframework runs on platform default installation.
+2017-12-16 09:05:56,983  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project idataframework has platform default sourceLevel.
+2017-12-16 09:05:56,983  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project idataframework runs on platform default installation.
+2017-12-16 09:05:56,983  WARN [Worker-18] - ScalaProject - Project idataframework has platform default sourceLevel.
+2017-12-16 09:05:56,983  WARN [Worker-18] - ScalaProject - Project idataframework runs on platform default installation.
+2017-12-16 09:05:56,983  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project idataframework has platform default sourceLevel.
+2017-12-16 09:05:56,983  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project idataframework runs on platform default installation.
+2017-12-16 09:05:56,983  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project idataframework has platform default sourceLevel.
+2017-12-16 09:05:56,999  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project idataframework runs on platform default installation.
+2017-12-16 09:05:56,999  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project idataframework has platform default sourceLevel.
+2017-12-16 09:05:56,999  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project idataframework runs on platform default installation.
+2017-12-16 09:05:56,999  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project idataframework has platform default sourceLevel.
+2017-12-16 09:05:56,999  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project idataframework runs on platform default installation.
+2017-12-16 09:05:57,093 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [idataframework does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2451)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1903)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1925)
+	at org.scalaide.core.internal.project.ClasspathManagement.jdkPaths(ClasspathManagement.scala:149)
+	at org.scalaide.core.internal.project.ClasspathManagement.jdkPaths$(ClasspathManagement.scala:148)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:150)
+	at org.scalaide.core.internal.project.ClasspathManagement.scalaClasspath(ClasspathManagement.scala:136)
+	at org.scalaide.core.internal.project.ClasspathManagement.scalaClasspath$(ClasspathManagement.scala:135)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:150)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:498)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:485)
+	at org.scalaide.core.internal.project.ScalaProject.prepareCompilerSettings(ScalaProject.scala:438)
+	at org.scalaide.core.internal.project.ScalaProject.$anonfun$presentationCompiler$1(ScalaProject.scala:162)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:154)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:153)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:118)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:80)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:100)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:58)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit.forceReconcile(InteractiveCompilationUnit.scala:150)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit.forceReconcile$(InteractiveCompilationUnit.scala:149)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.forceReconcile(ScalaSourceFile.scala:71)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.handleReconciliation(ScalaReconcilingStrategy.scala:54)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:39)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:77)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:69)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+2017-12-16 09:05:57,093 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [idataframework does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2451)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1903)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1925)
+	at org.scalaide.core.internal.project.ClasspathManagement.jdkPaths(ClasspathManagement.scala:149)
+	at org.scalaide.core.internal.project.ClasspathManagement.jdkPaths$(ClasspathManagement.scala:148)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:150)
+	at org.scalaide.core.internal.project.ClasspathManagement.scalaClasspath(ClasspathManagement.scala:136)
+	at org.scalaide.core.internal.project.ClasspathManagement.scalaClasspath$(ClasspathManagement.scala:135)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:150)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:498)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:485)
+	at org.scalaide.core.internal.project.ScalaProject.prepareCompilerSettings(ScalaProject.scala:438)
+	at org.scalaide.core.internal.project.ScalaProject.$anonfun$presentationCompiler$1(ScalaProject.scala:162)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:154)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:153)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:118)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:80)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:100)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:58)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit.currentProblems(InteractiveCompilationUnit.scala:183)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit.currentProblems$(InteractiveCompilationUnit.scala:180)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.currentProblems(ScalaSourceFile.scala:71)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit.forceReconcile(InteractiveCompilationUnit.scala:151)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit.forceReconcile$(InteractiveCompilationUnit.scala:149)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.forceReconcile(ScalaSourceFile.scala:71)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.handleReconciliation(ScalaReconcilingStrategy.scala:54)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:39)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:77)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:69)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+2017-12-16 09:05:57,109 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [idataframework does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2451)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1903)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1925)
+	at org.scalaide.core.internal.project.ClasspathManagement.jdkPaths(ClasspathManagement.scala:149)
+	at org.scalaide.core.internal.project.ClasspathManagement.jdkPaths$(ClasspathManagement.scala:148)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:150)
+	at org.scalaide.core.internal.project.ClasspathManagement.scalaClasspath(ClasspathManagement.scala:136)
+	at org.scalaide.core.internal.project.ClasspathManagement.scalaClasspath$(ClasspathManagement.scala:135)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:150)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:498)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:485)
+	at org.scalaide.core.internal.project.ScalaProject.prepareCompilerSettings(ScalaProject.scala:438)
+	at org.scalaide.core.internal.project.ScalaProject.$anonfun$presentationCompiler$1(ScalaProject.scala:162)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:154)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:153)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:118)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:80)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:100)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:58)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit.withSourceFile(InteractiveCompilationUnit.scala:201)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit.withSourceFile$(InteractiveCompilationUnit.scala:200)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.withSourceFile(ScalaSourceFile.scala:71)
+	at org.scalaide.ui.internal.editor.decorators.semantichighlighting.Presenter$SemanticHighlightingJob.$anonfun$performSemanticHighlighting$1(Presenter.scala:119)
+	at scala.Option.flatMap(Option.scala:171)
+	at org.scalaide.ui.internal.editor.decorators.semantichighlighting.Presenter$SemanticHighlightingJob.performSemanticHighlighting(Presenter.scala:119)
+	at org.scalaide.ui.internal.editor.decorators.semantichighlighting.Presenter$SemanticHighlightingJob.run(Presenter.scala:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+2017-12-16 09:05:57,109 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [idataframework does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2451)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1903)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1925)
+	at org.scalaide.core.internal.project.ClasspathManagement.jdkPaths(ClasspathManagement.scala:149)
+	at org.scalaide.core.internal.project.ClasspathManagement.jdkPaths$(ClasspathManagement.scala:148)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:150)
+	at org.scalaide.core.internal.project.ClasspathManagement.scalaClasspath(ClasspathManagement.scala:136)
+	at org.scalaide.core.internal.project.ClasspathManagement.scalaClasspath$(ClasspathManagement.scala:135)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:150)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:498)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:485)
+	at org.scalaide.core.internal.project.ScalaProject.prepareCompilerSettings(ScalaProject.scala:438)
+	at org.scalaide.core.internal.project.ScalaProject.$anonfun$presentationCompiler$1(ScalaProject.scala:162)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:154)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:153)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:118)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:80)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:100)
+	at org.scalaide.ui.internal.editor.decorators.BaseSemanticAction.apply(BaseSemanticAction.scala:139)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3.$anonfun$reconciled$3(ScalaSourceFileEditor.scala:105)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at org.scalaide.util.eclipse.EclipseUtils$$anon$3.run(EclipseUtils.scala:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.scalaide.util.eclipse.EclipseUtils$.withSafeRunner(EclipseUtils.scala:226)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3.$anonfun$reconciled$1(ScalaSourceFileEditor.scala:105)
+	at scala.collection.mutable.ArraySeq.foreach(ArraySeq.scala:74)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3.reconciled(ScalaSourceFileEditor.scala:103)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners.$anonfun$reconciled$5(ScalaSourceFileEditor.scala:478)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners.$anonfun$reconciled$5$adapted(ScalaSourceFileEditor.scala:478)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners.reconciled(ScalaSourceFileEditor.scala:478)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor.reconciled(ScalaSourceFileEditor.scala:379)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.$anonfun$handleReconciliation$2(ScalaReconcilingStrategy.scala:65)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.$anonfun$handleReconciliation$2$adapted(ScalaReconcilingStrategy.scala:65)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.handleReconciliation(ScalaReconcilingStrategy.scala:65)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:39)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:77)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:69)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+2017-12-16 09:05:57,124 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [idataframework does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2451)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1903)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1925)
+	at org.scalaide.core.internal.project.ClasspathManagement.jdkPaths(ClasspathManagement.scala:149)
+	at org.scalaide.core.internal.project.ClasspathManagement.jdkPaths$(ClasspathManagement.scala:148)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:150)
+	at org.scalaide.core.internal.project.ClasspathManagement.scalaClasspath(ClasspathManagement.scala:136)
+	at org.scalaide.core.internal.project.ClasspathManagement.scalaClasspath$(ClasspathManagement.scala:135)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:150)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:498)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:485)
+	at org.scalaide.core.internal.project.ScalaProject.prepareCompilerSettings(ScalaProject.scala:438)
+	at org.scalaide.core.internal.project.ScalaProject.$anonfun$presentationCompiler$1(ScalaProject.scala:162)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:154)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:153)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:118)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:80)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:100)
+	at org.scalaide.ui.internal.editor.decorators.BaseSemanticAction.apply(BaseSemanticAction.scala:139)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3.$anonfun$reconciled$3(ScalaSourceFileEditor.scala:105)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at org.scalaide.util.eclipse.EclipseUtils$$anon$3.run(EclipseUtils.scala:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.scalaide.util.eclipse.EclipseUtils$.withSafeRunner(EclipseUtils.scala:226)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3.$anonfun$reconciled$1(ScalaSourceFileEditor.scala:105)
+	at scala.collection.mutable.ArraySeq.foreach(ArraySeq.scala:74)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3.reconciled(ScalaSourceFileEditor.scala:103)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners.$anonfun$reconciled$5(ScalaSourceFileEditor.scala:478)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners.$anonfun$reconciled$5$adapted(ScalaSourceFileEditor.scala:478)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners.reconciled(ScalaSourceFileEditor.scala:478)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor.reconciled(ScalaSourceFileEditor.scala:379)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.$anonfun$handleReconciliation$2(ScalaReconcilingStrategy.scala:65)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.$anonfun$handleReconciliation$2$adapted(ScalaReconcilingStrategy.scala:65)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.handleReconciliation(ScalaReconcilingStrategy.scala:65)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:39)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:77)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:69)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+2017-12-16 09:05:57,124 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [idataframework does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2451)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1903)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1925)
+	at org.scalaide.core.internal.project.ClasspathManagement.jdkPaths(ClasspathManagement.scala:149)
+	at org.scalaide.core.internal.project.ClasspathManagement.jdkPaths$(ClasspathManagement.scala:148)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:150)
+	at org.scalaide.core.internal.project.ClasspathManagement.scalaClasspath(ClasspathManagement.scala:136)
+	at org.scalaide.core.internal.project.ClasspathManagement.scalaClasspath$(ClasspathManagement.scala:135)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:150)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:498)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:485)
+	at org.scalaide.core.internal.project.ScalaProject.prepareCompilerSettings(ScalaProject.scala:438)
+	at org.scalaide.core.internal.project.ScalaProject.$anonfun$presentationCompiler$1(ScalaProject.scala:162)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:154)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:153)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:118)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:80)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:100)
+	at org.scalaide.ui.internal.editor.decorators.BaseSemanticAction.apply(BaseSemanticAction.scala:139)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3.$anonfun$reconciled$3(ScalaSourceFileEditor.scala:105)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at org.scalaide.util.eclipse.EclipseUtils$$anon$3.run(EclipseUtils.scala:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.scalaide.util.eclipse.EclipseUtils$.withSafeRunner(EclipseUtils.scala:226)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3.$anonfun$reconciled$1(ScalaSourceFileEditor.scala:105)
+	at scala.collection.mutable.ArraySeq.foreach(ArraySeq.scala:74)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3.reconciled(ScalaSourceFileEditor.scala:103)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners.$anonfun$reconciled$5(ScalaSourceFileEditor.scala:478)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners.$anonfun$reconciled$5$adapted(ScalaSourceFileEditor.scala:478)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners.reconciled(ScalaSourceFileEditor.scala:478)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor.reconciled(ScalaSourceFileEditor.scala:379)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.$anonfun$handleReconciliation$2(ScalaReconcilingStrategy.scala:65)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.$anonfun$handleReconciliation$2$adapted(ScalaReconcilingStrategy.scala:65)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.handleReconciliation(ScalaReconcilingStrategy.scala:65)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:39)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:77)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:69)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+2017-12-16 09:05:57,124 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [idataframework does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2451)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1903)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1925)
+	at org.scalaide.core.internal.project.ClasspathManagement.jdkPaths(ClasspathManagement.scala:149)
+	at org.scalaide.core.internal.project.ClasspathManagement.jdkPaths$(ClasspathManagement.scala:148)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:150)
+	at org.scalaide.core.internal.project.ClasspathManagement.scalaClasspath(ClasspathManagement.scala:136)
+	at org.scalaide.core.internal.project.ClasspathManagement.scalaClasspath$(ClasspathManagement.scala:135)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:150)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:498)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:485)
+	at org.scalaide.core.internal.project.ScalaProject.prepareCompilerSettings(ScalaProject.scala:438)
+	at org.scalaide.core.internal.project.ScalaProject.$anonfun$presentationCompiler$1(ScalaProject.scala:162)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:154)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:153)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:118)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:80)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:100)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:58)
+	at org.scalaide.ui.internal.editor.outline.ScalaOutlineReconcilingStrategy.updateOutlineView(ScalaOutlineReconcilingStrategy.scala:34)
+	at org.scalaide.ui.internal.editor.outline.ScalaOutlineReconcilingStrategy.reconcile(ScalaOutlineReconcilingStrategy.scala:19)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:77)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:69)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+2017-12-16 09:17:33,541  WARN [ModalContext] - ScalaProject - Project idataframework has platform default sourceLevel.
+2017-12-16 09:17:33,541  WARN [ModalContext] - ScalaProject - Project idataframework runs on platform default installation.
+2017-12-16 09:17:33,572  WARN [ModalContext] - ScalaProject - Project idataframework has platform default sourceLevel.
+2017-12-16 09:17:33,572  WARN [ModalContext] - ScalaProject - Project idataframework runs on platform default installation.
+2017-12-16 09:17:34,333  WARN [Worker-22] - ScalaProject - Project idataframework has platform default sourceLevel.
+2017-12-16 09:17:34,333  WARN [Worker-22] - ScalaProject - Project idataframework runs on platform default installation.
+2017-12-16 09:17:34,629  WARN [Worker-20] - ScalaProject - Project idataframework has platform default sourceLevel.
+2017-12-16 09:17:34,629  WARN [Worker-20] - ScalaProject - Project idataframework runs on platform default installation.
+2017-12-16 09:17:37,644  WARN [Worker-20] - ScalaProject - Project idataframework has platform default sourceLevel.
+2017-12-16 09:17:37,644  WARN [Worker-20] - ScalaProject - Project idataframework runs on platform default installation.
+2017-12-16 09:17:41,556  WARN [Worker-14] - ScalaProject - Project idataframework has platform default sourceLevel.
+2017-12-16 09:17:41,556  WARN [Worker-14] - ScalaProject - Project idataframework runs on platform default installation.
+2017-12-16 09:17:42,250  WARN [Worker-14] - ScalaProject - Project idataframework has platform default sourceLevel.
+2017-12-16 09:17:42,250  WARN [Worker-14] - ScalaProject - Project idataframework runs on platform default installation.
+2017-12-16 09:52:56,702  WARN [Worker-22] - ScalaProject - Project idataframework has platform default sourceLevel.
+2017-12-16 09:52:56,702  WARN [Worker-22] - ScalaProject - Project idataframework runs on platform default installation.
+2017-12-16 09:52:57,540  WARN [Worker-22] - ScalaProject - Project idataframework has platform default sourceLevel.
+2017-12-16 09:52:57,540  WARN [Worker-22] - ScalaProject - Project idataframework runs on platform default installation.
+2017-12-16 09:59:41,213  WARN [Worker-22] - ScalaProject - Project idataframework has platform default sourceLevel.
+2017-12-16 09:59:41,213  WARN [Worker-22] - ScalaProject - Project idataframework runs on platform default installation.
+2017-12-16 09:59:42,119  WARN [Worker-22] - ScalaProject - Project idataframework has platform default sourceLevel.
+2017-12-16 09:59:42,119  WARN [Worker-22] - ScalaProject - Project idataframework runs on platform default installation.
+2017-12-16 10:03:28,633  WARN [Worker-22] - ScalaProject - Project idataframework has platform default sourceLevel.
+2017-12-16 10:03:28,633  WARN [Worker-22] - ScalaProject - Project idataframework runs on platform default installation.
+2017-12-16 10:03:29,337  WARN [Worker-22] - ScalaProject - Project idataframework has platform default sourceLevel.
+2017-12-16 10:03:29,337  WARN [Worker-22] - ScalaProject - Project idataframework runs on platform default installation.
