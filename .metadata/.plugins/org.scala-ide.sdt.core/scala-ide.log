@@ -637,3 +637,122 @@ Java Model Exception: Java Model Status [idataframework does not exist]
 2017-12-16 10:03:28,633  WARN [Worker-22] - ScalaProject - Project idataframework runs on platform default installation.
 2017-12-16 10:03:29,337  WARN [Worker-22] - ScalaProject - Project idataframework has platform default sourceLevel.
 2017-12-16 10:03:29,337  WARN [Worker-22] - ScalaProject - Project idataframework runs on platform default installation.
+2017-12-17 19:49:57,089  WARN [ModalContext] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:49:57,101  WARN [ModalContext] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:49:57,363 ERROR [Worker-3] - System.err - log4j:WARN No appenders could be found for logger (org.eclipse.jgit.util.FS).
+2017-12-17 19:49:57,364 ERROR [Worker-3] - System.err - log4j:WARN Please initialize the log4j system properly.
+2017-12-17 19:50:00,164  WARN [Worker-3] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:50:00,165  WARN [Worker-3] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:50:25,181  WARN [Worker-3] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:50:25,181  WARN [Worker-3] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:50:26,196  WARN [bundle-351-ActorSystem-akka.actor.default-dispatcher-3] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:50:26,197  WARN [bundle-351-ActorSystem-akka.actor.default-dispatcher-3] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:50:27,161 ERROR [Scala Presentation Compiler [Testing]] - System.err - java.lang.Exception
+2017-12-17 19:50:27,162 ERROR [Scala Presentation Compiler [Testing]] - System.err - at scala.tools.nsc.interactive.Global.$anonfun$getOrCreateUnitOf$1(Global.scala:244)
+2017-12-17 19:50:27,162 ERROR [Scala Presentation Compiler [Testing]] - System.err - at scala.collection.MapLike.getOrElse(MapLike.scala:128)
+2017-12-17 19:50:27,162 ERROR [Scala Presentation Compiler [Testing]] - System.err - at scala.collection.MapLike.getOrElse$(MapLike.scala:126)
+2017-12-17 19:50:27,162 ERROR [Scala Presentation Compiler [Testing]] - System.err - at scala.collection.AbstractMap.getOrElse(Map.scala:59)
+2017-12-17 19:50:27,162 ERROR [Scala Presentation Compiler [Testing]] - System.err - at scala.tools.nsc.interactive.Global.getOrCreateUnitOf(Global.scala:244)
+2017-12-17 19:50:27,162 ERROR [Scala Presentation Compiler [Testing]] - System.err - at scala.tools.nsc.interactive.Global.typedTree(Global.scala:820)
+2017-12-17 19:50:27,162 ERROR [Scala Presentation Compiler [Testing]] - System.err - at scala.tools.nsc.interactive.ProgramInstrumenter$Instrumenter$.instrumentation(ProgramInstrumenter.scala:31)
+2017-12-17 19:50:27,162 ERROR [Scala Presentation Compiler [Testing]] - System.err - at scala.tools.nsc.interactive.ProgramInstrumenter$Instrumenter$.$anonfun$askInstrumentation$1(ProgramInstrumenter.scala:15)
+2017-12-17 19:50:27,162 ERROR [Scala Presentation Compiler [Testing]] - System.err - at scala.tools.nsc.interactive.Global.$anonfun$respond$1(Global.scala:688)
+2017-12-17 19:50:27,162 ERROR [Scala Presentation Compiler [Testing]] - System.err - at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:695)
+2017-12-17 19:50:27,162 ERROR [Scala Presentation Compiler [Testing]] - System.err - at scala.tools.nsc.interactive.Global.respond(Global.scala:688)
+2017-12-17 19:50:27,163 ERROR [Scala Presentation Compiler [Testing]] - System.err - at scala.tools.nsc.interactive.ProgramInstrumenter$Instrumenter$.askInstrumentation(ProgramInstrumenter.scala:15)
+2017-12-17 19:50:27,163 ERROR [Scala Presentation Compiler [Testing]] - System.err - at scala.tools.nsc.interactive.ProgramInstrumenter.$anonfun$askInstrumented$2(ProgramInstrumenter.scala:52)
+2017-12-17 19:50:27,163 ERROR [Scala Presentation Compiler [Testing]] - System.err - at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+2017-12-17 19:50:27,163 ERROR [Scala Presentation Compiler [Testing]] - System.err - at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+2017-12-17 19:50:27,163 ERROR [Scala Presentation Compiler [Testing]] - System.err - at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:444)
+2017-12-17 19:50:27,163 ERROR [Scala Presentation Compiler [Testing]] - System.err - at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+2017-12-17 19:50:27,163 ERROR [Scala Presentation Compiler [Testing]] - System.err - at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2017-12-17 19:50:30,369  WARN [Worker-1] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:50:30,370  WARN [Worker-1] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:51:04,959  WARN [Worker-6] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:51:04,959  WARN [Worker-6] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:51:06,868  WARN [Worker-4] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:51:06,868  WARN [Worker-4] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:51:54,771  WARN [Worker-2] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:51:54,771  WARN [Worker-2] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:51:56,661  WARN [Worker-3] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:51:56,662  WARN [Worker-3] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:52:51,950  WARN [Worker-6] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:52:51,950  WARN [Worker-6] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:52:53,854  WARN [Worker-5] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:52:53,854  WARN [Worker-5] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:53:38,109  WARN [Worker-4] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:53:38,109  WARN [Worker-4] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:53:39,980  WARN [Worker-5] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:53:39,980  WARN [Worker-5] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:53:49,588  WARN [Worker-6] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:53:49,588  WARN [Worker-6] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:53:51,264  WARN [Worker-2] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:53:51,264  WARN [Worker-2] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:53:59,539  WARN [Worker-1] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:53:59,539  WARN [Worker-1] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:54:01,309  WARN [Worker-2] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:54:01,310  WARN [Worker-2] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:54:11,290  WARN [Worker-3] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:54:11,291  WARN [Worker-3] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:54:13,158  WARN [Worker-6] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:54:13,158  WARN [Worker-6] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:54:34,107  WARN [Worker-3] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:54:34,107  WARN [Worker-3] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:54:35,881  WARN [Worker-3] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:54:35,881  WARN [Worker-3] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:54:56,972  WARN [Worker-4] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:54:56,972  WARN [Worker-4] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:54:58,656  WARN [Worker-0] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:54:58,657  WARN [Worker-0] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:55:04,847  WARN [Worker-3] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:55:04,847  WARN [Worker-3] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:55:06,579  WARN [Worker-0] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:55:06,579  WARN [Worker-0] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:55:45,166  WARN [Worker-1] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:55:45,166  WARN [Worker-1] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:55:46,829  WARN [Worker-3] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:55:46,829  WARN [Worker-3] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:56:08,304  WARN [Worker-4] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:56:08,304  WARN [Worker-4] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:56:10,033  WARN [Worker-3] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:56:10,033  WARN [Worker-3] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:56:21,981  WARN [Worker-0] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:56:21,981  WARN [Worker-0] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:56:23,729  WARN [Worker-0] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:56:23,729  WARN [Worker-0] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:56:33,198  WARN [Worker-4] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:56:33,198  WARN [Worker-4] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:56:34,923  WARN [Worker-3] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:56:34,923  WARN [Worker-3] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:56:53,368  WARN [Worker-6] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:56:53,369  WARN [Worker-6] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:56:55,122  WARN [Worker-0] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:56:55,122  WARN [Worker-0] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:57:18,403  WARN [Worker-3] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:57:18,403  WARN [Worker-3] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:57:20,158  WARN [Worker-4] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:57:20,159  WARN [Worker-4] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:57:35,963  WARN [Worker-4] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:57:35,963  WARN [Worker-4] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:57:37,705  WARN [Worker-3] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:57:37,705  WARN [Worker-3] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:57:51,058  WARN [Worker-1] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:57:51,058  WARN [Worker-1] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:57:52,694  WARN [Worker-4] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:57:52,694  WARN [Worker-4] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:58:30,831  WARN [Worker-4] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:58:30,831  WARN [Worker-4] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:58:32,615  WARN [Worker-4] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:58:32,615  WARN [Worker-4] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:58:46,775  WARN [Worker-6] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:58:46,775  WARN [Worker-6] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:58:48,526  WARN [Worker-4] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:58:48,527  WARN [Worker-4] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:58:54,030  WARN [Worker-0] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:58:54,030  WARN [Worker-0] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:58:55,773  WARN [Worker-6] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:58:55,773  WARN [Worker-6] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:59:29,682  WARN [Worker-4] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:59:29,682  WARN [Worker-4] - ScalaProject - Project Testing runs on platform default installation.
+2017-12-17 19:59:31,409  WARN [Worker-0] - ScalaProject - Project Testing has platform default sourceLevel.
+2017-12-17 19:59:31,409  WARN [Worker-0] - ScalaProject - Project Testing runs on platform default installation.
