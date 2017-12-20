@@ -1,0 +1,45 @@
+2017-12-17 21:43:30,052  WARN [ModalContext] - ScalaProject - Project iautoshop has platform default sourceLevel.
+2017-12-17 21:43:30,052  WARN [ModalContext] - ScalaProject - Project iautoshop runs on platform default installation.
+2017-12-17 21:43:31,739  WARN [ModalContext] - ScalaProject - Project iautoshop has platform default sourceLevel.
+2017-12-17 21:43:31,739  WARN [ModalContext] - ScalaProject - Project iautoshop runs on platform default installation.
+2017-12-17 21:43:32,583  WARN [Worker-6] - ScalaProject - Project iautoshop has platform default sourceLevel.
+2017-12-17 21:43:32,583  WARN [Worker-6] - ScalaProject - Project iautoshop runs on platform default installation.
+2017-12-17 21:43:32,911  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for iautoshop, setting default to 2.12.
+2017-12-17 21:43:32,927  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for iautoshop, setting default to 2.12.
+2017-12-19 19:50:06,601 ERROR [main] - System.err - 2017-12-19 19:50:06.597 -
+2017-12-19 19:50:06,608 ERROR [main] - System.err - Initializing %productName 4.2.6
+2017-12-19 19:50:06,609 ERROR [main] - System.err - 2017-12-19 19:50:06.609 -
+2017-12-19 19:50:06,609 ERROR [main] - System.err - Host plugin: org.scala-ide.sdk 4.7.0.201709291443
+2017-12-19 19:50:06,609 ERROR [main] - System.err - 2017-12-19 19:50:06.609 -
+2017-12-19 19:50:06,609 ERROR [main] - System.err - Initialize Core...
+2017-12-19 19:50:06,975 ERROR [main] - System.err - Warning: NLS unused message: dialog_connection_driver_general in: org.jkiss.dbeaver.core.CoreResources
+2017-12-19 19:50:07,081 ERROR [main] - System.err - 2017-12-19 19:50:07.081 -
+2017-12-19 19:50:07,082 ERROR [main] - System.err - Core initialized (472ms)
+2017-12-19 19:50:07,971  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for iautoshop, setting default to 2.12.
+2017-12-19 19:50:07,983  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for iautoshop, setting default to 2.12.
+2017-12-19 19:50:55,982 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-12-19 19:50:55,995 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-12-19 19:55:32,709 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+java.util.NoSuchElementException: key not found: C:\Applications\iautoshop\app\models\Bill.scala
+	at scala.collection.MapLike.default(MapLike.scala:232)
+	at scala.collection.MapLike.default$(MapLike.scala:231)
+	at scala.collection.AbstractMap.default(Map.scala:59)
+	at scala.collection.MapLike.apply(MapLike.scala:141)
+	at scala.collection.MapLike.apply$(MapLike.scala:140)
+	at scala.collection.AbstractMap.apply(Map.scala:59)
+	at scala.tools.nsc.interactive.Global.$anonfun$withTempUnits$1(Global.scala:839)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$3(Global.scala:938)
+	at scala.tools.nsc.interactive.Global.$anonfun$getDocComment$2(Global.scala:842)
+	at scala.tools.nsc.interactive.Global.$anonfun$respond$1(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:695)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.getDocComment(Global.scala:933)
+	at scala.tools.nsc.interactive.CompilerControl$AskDocCommentItem.apply$mcV$sp(CompilerControl.scala:383)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:493)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2017-12-19 20:02:31,553 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-12-19 20:02:31,553 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-12-19 20:02:31,553 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-12-19 20:02:31,553 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-12-19 20:02:31,554 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
