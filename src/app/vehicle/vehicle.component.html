@@ -1,0 +1,24 @@
+<div>
+  <table>
+    <thead>
+      <tr>
+        <th>Select</th>
+        <th>VehicleID</th>
+        <th>ClientID</th>
+        <th>Make</th>
+        <th>Model</th>
+      </tr>
+    </thead>
+    <tbody *ngFor='let data of clientVehicles'>
+        <tr>
+      <!-- <tr *ngFor='let data of vehicleData'> -->
+        <td><input type='checkbox'></td>
+        <td>{{ data.vehicleId }}</td>
+        <td>{{ data.clientId }}</td>
+        <td>{{ data.make }}</td>
+        <td>{{ data.model }}</td>
+      </tr>
+    </tbody>
+  </table>
+  <!-- <hr/> -->
+</div>
